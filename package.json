@@ -1,0 +1,32 @@
+{
+  "name": "simple_react_webpack3_environment",
+  "version": "1.0.0",
+  "description": "Simple React + webpack 3 environment",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crongjie/simple_react_webpack3_environment.git"
+  },
+  "author": "RJ <rongjie.tablet@gmail.com> (http://rj-memo.weebly.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crongjie/simple_react_webpack3_environment/issues"
+  },
+  "homepage": "https://github.com/crongjie/simple_react_webpack3_environment#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.2.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
